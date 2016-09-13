@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/fbjs/.*
+.*/node_modules/react-tap-event-plugin/.*
+
+[include]
+/web/static/js/*
+[libs]
+
+[options]
+esproposal.decorators=ignore
+esproposal.class_static_fields=enable
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+

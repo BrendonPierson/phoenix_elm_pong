@@ -1,0 +1,15 @@
+<header class="header">
+  <nav role="navigation">
+    <ul class="nav nav-pills pull-right">
+      <li><a href="<%= @auth_endpoint %>">Login With Google</a>
+      </li>
+    </ul>
+  </nav>
+  <span class="logo"></span>
+</header>
+
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}", name: "Pong" %></h2>
+  <p class="lead">A Table Tennis ratings tracker that<br />is built with the speed and reliability of Elixir and Phoenix.</p>
+</div>
+
